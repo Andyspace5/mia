@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 	$(".header a").hover( //头部a标签的样式变化
 		function() {
 			$(this).addClass("header_active");
@@ -242,7 +242,7 @@ $(function() {
 		//					var dt = $("<dt></dt>")
 		//					var div =  $("<div class='img'></div>")
 		//					$(res["three"][index]["img"]).each(function(i){
-		//						var a = $("<a href='#'><img src=img/moreshop/"+$(res["three"])[index]["img"][i]+"/></a>");
+		//						var a = $("<a href='#'><img src='img/moreshop/"+ res[index]["three"][i]["img"][j] + "'/></a>");
 		////						console.log($(res["two"])[index]["dt"][i])
 		//						$(div).append($(a));
 		//						$(dt).append($(div));
