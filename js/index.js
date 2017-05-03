@@ -166,7 +166,7 @@
 							var dt = $("<dt></dt>")
 							var div = $("<div class='img'></div>")
 							$(res[index]["three"][i]["img"]).each(function(j) {
-								var a = $("<a href='#'><img src=img/moreshop/" + $(res[index]["three"])[i]["img"][j] + "/></a>");
+								var a = $("<a href='#'><img src='img/moreshop/" + $(res[index]["three"])[i]["img"][j] + "'/></a>");
 								//						console.log($(res["two"])[index]["dt"][i])
 	
 								$(div).append($(a));
